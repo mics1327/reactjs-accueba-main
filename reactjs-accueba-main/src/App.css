@@ -1,0 +1,127 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.App {
+  position: absolute;
+  width: 100%;
+  height: 90px;
+  left: 0px;
+  top: 0px;
+  background: #277BC0;
+}
+
+#company{
+  position: absolute;
+  width: 175px;
+  height: 47px;
+  left: 30px;
+  top: 25px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+#home {
+  position: absolute;
+  width: 146px;
+  height: 66px;
+  left: 1270px;
+  top: 40px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+  
+}
+
+#about{
+  position: absolute;
+  width: 187px;
+  height: 66px;
+  left: 1400px;
+  top: 40px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;  
+
+  color: #FFFFFF;
+}
+
+#contact{
+  position: absolute;
+  width: 146px;
+  height: 66px;
+  left: 1600px;
+  top: 40px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;  
+
+  color: #FFFFFF;
+}
+
+#admin-text{
+  color: #FFFFFF;
+  text-align: center;
+  
+}
+
+#employee-text{
+  color: #FFFFFF;
+  text-align: center;
+}
+#admin-login-button{
+  position: absolute;
+  width: 286px;
+  height: 78px;
+  left: 1300px;
+  top: 332px;
+  border-radius: 30px;
+  background: #277BC0;
+  cursor: pointer;  
+}
+
+#employee-login-button{
+  position: absolute;
+  width: 286px;
+  height: 79px;
+  left: 1300px;
+  top: 512px;
+  border-radius: 30px;
+  background: #277BC0;
+  cursor: pointer;  
+
+}
+
+
+
