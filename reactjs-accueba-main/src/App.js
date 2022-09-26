@@ -7,8 +7,12 @@ import About from "./pages/About";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import NavBar from "./NavBar";
+<<<<<<< HEAD
+import Footer from "./Components/footer/Footer.js";
+=======
 import AdminModal from "./pages/LoginPopup/AdminModal";
 import EmpModal from "./pages/LoginPopup/AdminModal";
+>>>>>>> cebcf4fcf7824b26f0ac82bba58aebe472ecbd04
 
 function App() {
   const [openModal, setOpenModal] = useState(false)
@@ -16,7 +20,8 @@ function App() {
     
   <>
     <NavBar />
-    <div className="container">
+    <div className="page-container">
+      <div className="content-wrap">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -30,6 +35,9 @@ function App() {
       <EmpModal open={openModal} 
       onClose={() => setOpenModal(false)}/>
     </div>
+      <Footer />
+    </div>
+
   </>)
 }
 
