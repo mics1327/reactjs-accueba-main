@@ -4,7 +4,8 @@ export default function navbar() {
     return <nav className="nav">
         <Link to="/" className="site-title">Accueba</Link>
         <ul>
-                <CustomLink to="/about">About</CustomLink> 
+                <CustomLink to="/">Home</CustomLink>
+                <CustomLink to="/about">About Accueba</CustomLink> 
                 <CustomLink to="/contact">Contact Us</CustomLink>
         </ul>
     </nav>
