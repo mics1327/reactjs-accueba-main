@@ -22,6 +22,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <p>Log In</p>
       <button className='admModal'onClick={()=> setOpenModal(true)}>Admin Login</button>
       <button className='empModal' onClick={()=> setOpenModal(true)}>Employee Login</button>
       <AdminModal open={openModal} 
