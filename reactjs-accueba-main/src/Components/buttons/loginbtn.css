@@ -1,7 +1,30 @@
+
 .btn-toolbar{
-    display: block;
+    float: right;
+    margin-top: 25vh;
+    margin-right: 200px;
 }
 
-.btn-grp{
+.btn-grp button{
+    display: block;
+    background-color: #1183C3;
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
     border: none;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
 }
+
+.btn-grp button:not(:last-child){
+    border-bottom: none;
+}
+
+.btn-grp button:hover{
+    background-color: #107cbb;
+}
+
