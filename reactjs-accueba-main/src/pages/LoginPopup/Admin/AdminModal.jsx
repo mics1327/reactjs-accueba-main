@@ -23,4 +23,4 @@ const AdminModal = ({open, onClose}) => {
   )
 }
 
-export default AdminModal
+export default AdminModal;
