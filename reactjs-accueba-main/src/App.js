@@ -7,12 +7,10 @@ import About from "./pages/About";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import NavBar from "./NavBar";
-<<<<<<< HEAD
 import Footer from "./Components/footer/Footer.js";
-=======
-import AdminModal from "./pages/LoginPopup/AdminModal";
-import EmpModal from "./pages/LoginPopup/AdminModal";
->>>>>>> cebcf4fcf7824b26f0ac82bba58aebe472ecbd04
+import AdminModal from "./pages/LoginPopup/Admin/AdminModal";
+import EmpModal from "./pages/LoginPopup/EmpModal";
+
 
 function App() {
   const [openModal, setOpenModal] = useState(false)
