@@ -16,16 +16,16 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 
-    function writeUserData(userID, name, email){
-    const db = getDatbase(); 
-    const reference = ref(db, 'users/' + userID);
-    const analytics = getAnalytics(app);
+function writeUserData(empID, empName, email){
+  const db = getDatbase(); 
+  const reference = ref(db, 'Employee/' + empID);
+  const analytics = getAnalytics(app);
+ 
 
-
-    set(reference, {
-        username: name,
-        email: email,
-    })
+  set(reference, {
+      username: empName,
+      email: email,
+  });
 }
 
 writeUserData("user1" , "user" , "newuser@me.com")
