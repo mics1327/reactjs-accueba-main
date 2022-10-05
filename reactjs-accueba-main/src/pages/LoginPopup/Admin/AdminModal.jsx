@@ -1,7 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Button from '@material-ui/core/Button';
 
+const EmpModal = ({open, onClose}) => {
 
-const AdminModal = ({open, onClose}) => {
     if(!open) return null
   return (
     <div className= 'overlay'>
@@ -15,7 +17,9 @@ const AdminModal = ({open, onClose}) => {
                        <input type= "text" />
                     </div>
                    <div className="btnContainer">
-                       <button className="btnPrimary">Log In</button> 
+                   <Button component={Link} to="/pages/LoginPopup/Admin/AdminPages/EmpInfo" variant="contained" color="primary">
+  About Page
+</Button>
                    </div>
             </div>
         </div>
@@ -23,4 +27,5 @@ const AdminModal = ({open, onClose}) => {
   )
 }
 
-export default AdminModal;
+
+export default EmpModal
