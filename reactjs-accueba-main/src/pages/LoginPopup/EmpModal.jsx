@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
+import Button from '@material-ui/core/Button';
 
 const EmpModal = ({open, onClose}) => {
     if(!open) return null
@@ -14,7 +16,9 @@ const EmpModal = ({open, onClose}) => {
                        <input type= "text" />
                     </div>
                    <div className="btnContainer">
-                       <button className="btnPrimary">Log In</button> 
+                   <Button component={Link} to="/pages/LoginPopup/Admin/AdminPages/EmpInfo">
+                    Log In
+                    </Button>
                    </div>
             </div>
         </div>
